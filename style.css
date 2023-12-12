@@ -200,7 +200,7 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(.https://firebasestorage.googleapis.com/v0/b/data-nithya.appspot.com/o/hero-bg.png?alt=media&token=adf0f856-3e30-41b2-8f4c-60bbde5abb32);
+	background-image: url(/hero-bg.png);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
