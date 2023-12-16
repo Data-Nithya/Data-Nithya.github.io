@@ -740,13 +740,13 @@ p {
 }
 
 .about-containers {
-    gap:2rem;
-    margin-bottom:2rem;
-    margin-top:2rem;
+    gap:2px;
+    margin-bottom:2px;
+    margin-top:2px;
 }
 .icon {
     cursor: pointer;
-    height:2rem;
+    height:2px;
 }
 
 #skills {
@@ -757,7 +757,7 @@ p {
     color:rgb(85,85,85);
     font-weight:600;
     font-size: 1.75rem;
-    margin-bottom:2rem
+    margin-bottom:2px
 }
 
 .skills-details-container {
@@ -786,7 +786,7 @@ article .icon {
     padding:1.5rem;
     flex: 1;
     background:white;
-    border-radius:2rem;
+    border-radius:2px;
     border:rgb(53,53,53) 0.1rem solid;
     border-color:rgb(163,163,163);
     text-align:center;
