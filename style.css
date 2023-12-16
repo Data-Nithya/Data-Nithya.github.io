@@ -730,7 +730,7 @@ p {
 
 .icon {
     cursor: pointer;
-    height:2px;
+    height:2rem;
 }
 
 
@@ -746,7 +746,7 @@ p {
 }
 .icon {
     cursor: pointer;
-    height:2px;
+    height:2rem;
 }
 
 #skills {
