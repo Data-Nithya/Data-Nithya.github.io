@@ -740,9 +740,9 @@ p {
 }
 
 .about-containers {
-    gap:2px;
-    margin-bottom:2px;
-    margin-top:2px;
+    gap:2rem;
+    margin-bottom:2rem;
+    margin-top:2rem;
 }
 .icon {
     cursor: pointer;
