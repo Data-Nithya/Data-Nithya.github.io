@@ -79,6 +79,10 @@ p {
 	top: 0;
 	width: 100vw;
 	height: auto;
+	padding-top:4vh;
+	margin:0 10rem;
+	box-sizing:border-box;
+	min-height: fit-content;
 }
 #header .header {
 	min-height: 8vh;
