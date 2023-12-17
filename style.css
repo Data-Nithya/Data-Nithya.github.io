@@ -735,19 +735,30 @@ p {
 
 
 /* Skills Section */
-#about{
-    position:relative;
+
+section {
+    padding-top:4vh;
+    height:96vh;
+    margin:0 10rem;
+    box-sizing:border-box;
+    min-height: fit-content;
 }
 
-.about-containers {
-    gap:2rem;
-    margin-bottom:2rem;
-    margin-top:2rem;
-}
 .icon {
     cursor: pointer;
     height:2rem;
 }
+.details-container {
+    padding:1.5rem;
+    flex: 1;
+    background:white;
+    border-radius:2rem;
+    border:rgb(53,53,53) 0.1rem solid;
+    border-color:rgb(163,163,163);
+    text-align:center;
+} 
+
+
 
 #skills {
     position:relative;
@@ -773,21 +784,4 @@ p {
     flex-direction: row;
     gap:2.5rem;
     justify-content: space-around;
-}
-
-article {
-   gap:0.5rem; 
-}
-
-article .icon {
-    cursor:default;
-}
-.details-container {
-    padding:1.5rem;
-    flex: 1;
-    background:white;
-    border-radius:2rem;
-    border:rgb(53,53,53) 0.1rem solid;
-    border-color:rgb(163,163,163);
-    text-align:center;
 }
