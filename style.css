@@ -267,67 +267,70 @@ p {
 
 /* End Hero Section */
 
-/* Services Section */
-#services .services {
-	flex-direction: column;
-	text-align: center;
-	max-width: 1500px;
-	margin: 0 auto;
-	padding: 100px 0;
+/* Skills Section */
+
+.icon {
+    cursor: pointer;
+    height:2rem;
 }
-#services .service-top {
-	max-width: 500px;
-	margin: 0 auto;
+.details-container {
+    padding:1.5rem;
+    flex: 1;
+    background:white;
+    border-radius:2rem;
+    border:rgb(53,53,53) 0.1rem solid;
+    border-color:rgb(163,163,163);
+    text-align:center;
+} 
+
+.about-containers {
+    gap:2rem;
+    margin-bottom:2rem;
+    margin-top:2rem;
 }
-#services .service-bottom {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-wrap: wrap;
-	margin-top: 50px;
+
+article {
+   gap:0.5rem; 
 }
-#services .service-item {
-	flex-basis: 80%;
-	display: flex;
-	align-items: flex-start;
-	justify-content: center;
-	flex-direction: column;
-	padding: 30px;
-	border-radius: 10px;
-	background-image: url(./img/img-1.png);
-	background-size: cover;
-	margin: 10px 5%;
-	position: relative;
-	z-index: 1;
-	overflow: hidden;
+
+article .icon {
+    cursor:default;
 }
-#services .service-item::after {
-	content: '';
-	position: absolute;
-	left: 0;
-	top: 0;
-	height: 100%;
-	width: 100%;
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-	opacity: 0.9;
-	z-index: -1;
+.skills-sub-title {
+    color:rgb(85,85,85);
+    font-weight:600;
+    font-size: 1.75rem;
+    margin-bottom:2rem
 }
-#services .service-bottom .icon {
-	height: 80px;
-	width: 80px;
-	margin-bottom: 20px;
+
+
+
+#skills {
+    position:relative;
 }
-#services .service-item h2 {
-	font-size: 2rem;
-	color: white;
-	margin-bottom: 10px;
-	text-transform: uppercase;
+
+.skills-sub-title {
+    color:rgb(85,85,85);
+    font-weight:600;
+    font-size: 1.75rem;
+    margin-bottom:2rem
 }
-#services .service-item p {
-	color: white;
-	text-align: left;
+
+.skills-details-container {
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
 }
-/* End Services Section */
+
+.article-container {
+    display:flex;
+    text-align:initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap:2.5rem;
+    justify-content: space-around;
+}
+
 
 /* Projects section */
 #projects .projects {
@@ -586,10 +589,9 @@ p {
 	/* End Hero */
 
 	/* Services Section */
-	#services .service-bottom .service-item {
-		flex-basis: 45%;
-		margin: 2.5%;
-	}
+	 article {
+        font-size:1rem;
+    }
 	/* End Services Section */
 
 	/* Project */
@@ -735,66 +737,3 @@ p {
 }
 
 
-/* Skills Section */
-
-.icon {
-    cursor: pointer;
-    height:2rem;
-}
-.details-container {
-    padding:1.5rem;
-    flex: 1;
-    background:white;
-    border-radius:2rem;
-    border:rgb(53,53,53) 0.1rem solid;
-    border-color:rgb(163,163,163);
-    text-align:center;
-} 
-
-.about-containers {
-    gap:2rem;
-    margin-bottom:2rem;
-    margin-top:2rem;
-}
-
-article {
-   gap:0.5rem; 
-}
-
-article .icon {
-    cursor:default;
-}
-.skills-sub-title {
-    color:rgb(85,85,85);
-    font-weight:600;
-    font-size: 1.75rem;
-    margin-bottom:2rem
-}
-
-
-
-#skills {
-    position:relative;
-}
-
-.skills-sub-title {
-    color:rgb(85,85,85);
-    font-weight:600;
-    font-size: 1.75rem;
-    margin-bottom:2rem
-}
-
-.skills-details-container {
-    display:flex;
-    justify-content:center;
-    flex-direction:column;
-}
-
-.article-container {
-    display:flex;
-    text-align:initial;
-    flex-wrap: wrap;
-    flex-direction: row;
-    gap:2.5rem;
-    justify-content: space-around;
-}
