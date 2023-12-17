@@ -736,14 +736,6 @@ p {
 
 /* Skills Section */
 
-section {
-    padding-top:4vh;
-    height:96vh;
-    margin:0 10rem;
-    box-sizing:border-box;
-    min-height: fit-content;
-}
-
 .icon {
     cursor: pointer;
     height:2rem;
